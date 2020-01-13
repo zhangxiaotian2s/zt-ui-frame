@@ -1,4 +1,5 @@
 {
-    "ZtButton":"./src/components/button",
+    "zt-button":"./src/components/button",
+    "zt-downtime":"./src/components/downTime",
     "index":"./src/index.js"
 }

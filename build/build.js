@@ -11,9 +11,6 @@ const webpack = require('webpack')
 const config = require('../config')
 let webpackConfig = require('./webpack.prod.conf')
 
-if(process.argv[2]=='all'){
- webpackConfig=require('./webpack.prodAll.conf') 
-}
 if(process.argv[2]=='examples'){
   webpackConfig=require('./webpack.prod.examples.conf') 
   config.build.assetsRoot = path.resolve(__dirname, '../dist')
